@@ -15,5 +15,6 @@ public class Calc {
             case '/' -> System.out.println("Quotient : "+num1+" / "+num2+" = "+(num1/num2));
             default -> System.out.println("Enter a valid operation...(T-T)");
         }
+        sc.close();
     }    
 }

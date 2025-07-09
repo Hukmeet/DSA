@@ -5,5 +5,6 @@ public class Input {
         System.out.println("What's your name??");
         String name=sc.next();
         System.out.println("Hello, "+name+"!");
+        sc.close();
     }    
 }
